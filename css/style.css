@@ -1,0 +1,34 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:wght@400;500;600;700&display=swap");
+
+/* reset style */
+@import "reset.css";
+
+/* variables */
+@import "variables.css";
+
+/* Components */
+@import "Components/status-bar.css";
+@import "Components/nav-bar.css";
+@import "Components/screen-header.css";
+@import "Components/user-component.css";
+@import "Components/only-mobile.css";
+
+/* Screens */
+@import "Screens/login.css";
+@import "Screens/friends.css";
+@import "Screens/find.css";
+@import "Screens/more.css";
+@import "Screens/setting.css";
+@import "Screens/chatting.css";
+
+body {
+  font-family: "Open Sans";
+  color: #2e363e;
+  height: 200vh;
+}
+
+.main-screen {
+  margin-bottom: 50px;
+  padding: 0px var(--horizontal-space);
+}
